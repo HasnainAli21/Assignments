@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Login"
+            android:icon="@drawable/ic_login_black"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_ResturantMenu"
+            android:icon="@drawable/ic_restaurant_menu_black"
+            android:title="Resturant Menu" />
+        <item
+            android:id="@+id/nav_TakePic"
+            android:icon="@drawable/ic_camera_black"
+            android:title="Take Picture" />
+        <item
+            android:id="@+id/nav_EmergencyCall"
+            android:icon="@drawable/ic_call_black"
+            android:title="Emergency Call" />
+        <item
+            android:id="@+id/nav_10BestSOngs"
+            android:icon="@drawable/ic_music_black"
+            android:title="10 Best Songs" />
+        <item
+            android:id="@+id/nav_GoogleMap"
+            android:icon="@drawable/ic_map_black"
+            android:title="Google Map" />
+        <item
+            android:id="@+id/nav_RateUS"
+            android:icon="@drawable/ic_rate_black"
+            android:title="RateUs" />
+        <item
+            android:id="@+id/nav_Exit"
+            android:icon="@drawable/ic_exit_app_black"
+            android:title="Exit" />
+
+    </group>
+
+</menu>
